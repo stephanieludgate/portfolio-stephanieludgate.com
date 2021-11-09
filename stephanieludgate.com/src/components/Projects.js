@@ -68,7 +68,7 @@ class Projects extends Component {
                                 <MarkupSVG/>
                                 <span className="project-details">{project.language}</span>
                                 <a href={""+project.github+""} className="primary-btn open-code-btn" target="_blank" rel="noopener noreferrer">
-                                    Code
+                                    Open
                                     <OpenCodeSVG/>
                                 </a>
                             </div>

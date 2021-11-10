@@ -27,6 +27,16 @@ const projects = [
         langIcon: 'javascript',
         coverImg: 'thumbnail-tip-calculator',
         github: 'https://github.com/stephanieludgate/portfolio-tip-calculator'
+    },
+        
+    {
+        name: 'Task Manager',
+        description: 'WPF application to manage upcoming tasks, perform CRUD operations and filter results.',
+        type: 'Course',
+        language: 'C# - WPF',
+        langIcon: 'csharp',
+        coverImg: 'thumbnail-task-manager',
+        github: 'https://github.com/stephanieludgate/portfolio-task-manager'
     }
 
 ]

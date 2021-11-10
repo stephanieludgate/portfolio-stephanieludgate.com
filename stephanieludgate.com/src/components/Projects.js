@@ -4,7 +4,7 @@ import SquiggleSVG from '../icons/squiggle';
 import ProjectContent from '../project-content';
 import IconReactSVG from '../icons/lang-react';
 import IconJavaScriptSVG from '../icons/lang-javascript';
-//import IconPhpSVG from '../icons/lang-php';
+import IconPhpSVG from '../icons/lang-php';
 //import IconCsharpSVG from '../icons/lang-csharp';
 //import IconPythonSVG from '../icons/lang-python';
 import GradientBar from '../icons/gradient-bar';
@@ -32,7 +32,7 @@ class Projects extends Component {
                 </h3>             
                 <div className="row" id="project-cards">
                     <div className="col-12">
-                        <p className="general-font">Below are some of my projects.  More to come soon...</p>
+                        <p className="general-font">Below are some of my projects, both independent and course-related.</p>
                     </div>
 
                     {projects.map((project, key) => (
@@ -47,6 +47,9 @@ class Projects extends Component {
 
                                 {project.langIcon === 'react' && (
                                     <IconReactSVG/>
+                                )}
+                                {project.langIcon === 'php' && (
+                                    <IconPhpSVG/>
                                 )}
                                 {project.langIcon === 'javascript' && (
                                     <IconJavaScriptSVG/>

@@ -18,6 +18,16 @@ const projects = [
         coverImg: 'thumbnail-crossword',
         github: 'https://github.com/stephanieludgate/portfolio-crossword'
     },
+    
+    {
+        name: 'Blackjack',
+        description: 'Playable blackjack game, where players start with $500 and place bets on each round.',
+        type: 'Course',
+        language: 'C# - ASP.NET',
+        langIcon: 'csharp',
+        coverImg: 'thumbnail-blackjack',
+        github: 'https://github.com/stephanieludgate/portfolio-blackjack'
+    },
         
     {
         name: 'Tip Calculator',

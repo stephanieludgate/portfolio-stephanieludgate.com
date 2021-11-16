@@ -6,7 +6,7 @@ import IconReactSVG from '../icons/lang-react';
 import IconJavaScriptSVG from '../icons/lang-javascript';
 import IconPhpSVG from '../icons/lang-php';
 import IconCsharpSVG from '../icons/lang-csharp';
-//import IconPythonSVG from '../icons/lang-python';
+import IconPythonSVG from '../icons/lang-python';
 import GradientBar from '../icons/gradient-bar';
 import IndependentProjectSVG from '../icons/project-independent';
 import CourseProjectSVG from '../icons/project-course';
@@ -56,6 +56,9 @@ class Projects extends Component {
                                 )}  
                                 {project.langIcon === 'csharp' && (
                                     <IconCsharpSVG/>
+                                )} 
+                                {project.langIcon === 'python' && (
+                                    <IconPythonSVG/>
                                 )} 
                             </div>
 

@@ -28,6 +28,16 @@ const projects = [
         coverImg: 'thumbnail-blackjack',
         github: 'https://github.com/stephanieludgate/portfolio-blackjack'
     },
+    
+    {
+        name: 'Space Invaders',
+        description: 'Classic game where player moves along x-axis and shoots lasers at aliens who re-spawn.',
+        type: 'Independent',
+        language: 'Python',
+        langIcon: 'python',
+        coverImg: 'thumbnail-space-invaders',
+        github: 'https://github.com/stephanieludgate/portfolio-space-invaders'
+    },
         
     {
         name: 'Tip Calculator',
